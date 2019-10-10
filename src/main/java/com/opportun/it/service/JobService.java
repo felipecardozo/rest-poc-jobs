@@ -1,4 +1,4 @@
-package com.opportun.it;
+package com.opportun.it.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
