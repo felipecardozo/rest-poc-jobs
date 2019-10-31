@@ -2,6 +2,7 @@ package com.opportun.it.rest;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,6 +12,7 @@ import com.opportun.it.service.JobService;
 @RestController
 public class JobsController {
 	
+	@Autowired
 	private JobService jobService;
 	
 	public JobsController(JobService jobService) {
